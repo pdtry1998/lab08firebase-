@@ -1,0 +1,58 @@
+li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 200px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.15);
+    margin: 0 16px 16px 0;
+    border-radius: 4px;
+    overflow: hidden;
+ }
+ 
+
+ .id {
+    position: absolute;
+    right: 4px;
+    top: 2px;
+ }
+ 
+ .name {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+ }
+ 
+  
+
+ .container{
+     display: flex;
+     flex-direction: row;
+ }
+
+ .button{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+ }
+  
+ .button>button{
+    flex: 1;
+    border: none;
+ }
+  
+ .green {
+    background-color: rgb(141, 218, 79);
+ }
+  
+ .red {
+    background-color: rgba(238, 98, 98, 0.801);
+ }
+ 
+  
+ 
